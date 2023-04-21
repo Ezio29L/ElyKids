@@ -32,6 +32,38 @@ namespace ElyKids_Software_Didactico
         private void eButton1_Click(object sender, EventArgs e)
         {
             //en este espacio se pondra la funcion para pasar de una ventana a otra
+            //esto lo hacemos en varios pasos
+            //Paso 1: creamos la otra ventana
+            MenuPrincipal menu = new MenuPrincipal(trbVolumen.Value);
+            //Paso 2: paramos la musica de aqui y volvemos invisible esta ventana.
+            WMP.Ctlcontrols.stop();
+            this.Visible = false;
+            //Paso 3: Ahora si abrimos el menu, con ShowDialog, lo que nos va a hacer imposible interactuar
+            //con esta ventana aunque estuviece visible, mientras el menu este abierto.
+            menu.ShowDialog();
+            //de aqui el codigo no avanza hasta que el Menu se cierre.
+            //si el menu se cierra a travez del boton de atras se ejecutara el if, si se cerro por el boton de salir, se ejecutara el else
+            if (menu.DialogResult == DialogResult.OK)
+            {
+                //Paso 4: cuando el menu se cierre tenemos que volver a hacer visible esta ventana
+                this.Visible = true;
+                //Paso 5: Importamos el sonido que estaba manejandose en el menu
+                trbVolumen.Value = menu.volumenActivo;
+                lblVol.Text = (trbVolumen.Value.ToString()) + "%";
+                WMP.settings.volume = trbVolumen.Value;
+                //Paso 6: prendemos la musica
+                WMP.Ctlcontrols.play();
+                //Paso 7: y ya nos podemos deshacer del menu.
+                menu.Dispose();
+            }
+            else
+            { 
+                Application.Exit();
+            }
+            
+            
+
+
         }
         private string ObtenerUrl(string url)
         {

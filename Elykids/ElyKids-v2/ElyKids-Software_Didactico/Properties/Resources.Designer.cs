@@ -312,6 +312,16 @@ namespace ElyKids_Software_Didactico.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap left_arrow__1_ {
+            get {
+                object obj = ResourceManager.GetObject("left_arrow__1_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap letra_x {
             get {
                 object obj = ResourceManager.GetObject("letra_x", resourceCulture);
