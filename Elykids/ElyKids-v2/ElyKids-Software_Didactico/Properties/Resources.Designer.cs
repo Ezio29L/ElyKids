@@ -81,46 +81,6 @@ namespace ElyKids_Software_Didactico.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap botonAtrás_PhotoRoom_png_PhotoRoom {
-            get {
-                object obj = ResourceManager.GetObject("botonAtrás_PhotoRoom_png_PhotoRoom", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap botonSig_PhotoRoom_png_PhotoRoom {
-            get {
-                object obj = ResourceManager.GetObject("botonSig_PhotoRoom_png_PhotoRoom", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap cerrar {
-            get {
-                object obj = ResourceManager.GetObject("cerrar", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap fondo {
-            get {
-                object obj = ResourceManager.GetObject("fondo", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream intro {
@@ -320,16 +280,6 @@ namespace ElyKids_Software_Didactico.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap letra_x {
-            get {
-                object obj = ResourceManager.GetObject("letra_x", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream menu {
@@ -344,26 +294,6 @@ namespace ElyKids_Software_Didactico.Properties {
         internal static System.Drawing.Bitmap Pantalla_de_inicio {
             get {
                 object obj = ResourceManager.GetObject("Pantalla_de_inicio", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Speaker_Icon_svg {
-            get {
-                object obj = ResourceManager.GetObject("Speaker_Icon_svg", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap tocar {
-            get {
-                object obj = ResourceManager.GetObject("tocar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

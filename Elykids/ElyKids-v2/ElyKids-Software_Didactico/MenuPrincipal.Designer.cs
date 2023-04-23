@@ -30,12 +30,12 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuPrincipal));
             this.FlowPrincipal = new System.Windows.Forms.FlowLayoutPanel();
+            this.FlowPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.FlowPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.btnSalir = new CustomControls.EControls.EButton();
             this.btnAtras = new CustomControls.EControls.EButton();
             this.btnVolumen = new CustomControls.EControls.EButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.FlowPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.FlowPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.PnlVol = new System.Windows.Forms.Panel();
             this.trbVolumen = new System.Windows.Forms.TrackBar();
             this.lblVol = new System.Windows.Forms.Label();
@@ -58,6 +58,22 @@
             this.FlowPrincipal.Name = "FlowPrincipal";
             this.FlowPrincipal.Size = new System.Drawing.Size(564, 320);
             this.FlowPrincipal.TabIndex = 0;
+            // 
+            // FlowPanel1
+            // 
+            this.FlowPanel1.Location = new System.Drawing.Point(3, 3);
+            this.FlowPanel1.Name = "FlowPanel1";
+            this.FlowPanel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.FlowPanel1.Size = new System.Drawing.Size(561, 250);
+            this.FlowPanel1.TabIndex = 0;
+            // 
+            // FlowPanel2
+            // 
+            this.FlowPanel2.Location = new System.Drawing.Point(3, 259);
+            this.FlowPanel2.Name = "FlowPanel2";
+            this.FlowPanel2.Size = new System.Drawing.Size(561, 315);
+            this.FlowPanel2.TabIndex = 1;
+            this.FlowPanel2.Visible = false;
             // 
             // btnSalir
             // 
@@ -130,29 +146,12 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = global::ElyKids_Software_Didactico.Properties.Resources.fondo;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(151, 80);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
-            // 
-            // FlowPanel1
-            // 
-            this.FlowPanel1.Location = new System.Drawing.Point(3, 3);
-            this.FlowPanel1.Name = "FlowPanel1";
-            this.FlowPanel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.FlowPanel1.Size = new System.Drawing.Size(561, 250);
-            this.FlowPanel1.TabIndex = 0;
-            // 
-            // FlowPanel2
-            // 
-            this.FlowPanel2.Location = new System.Drawing.Point(3, 259);
-            this.FlowPanel2.Name = "FlowPanel2";
-            this.FlowPanel2.Size = new System.Drawing.Size(561, 315);
-            this.FlowPanel2.TabIndex = 1;
-            this.FlowPanel2.Visible = false;
             // 
             // PnlVol
             // 
