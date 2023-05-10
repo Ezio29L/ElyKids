@@ -61,7 +61,9 @@
             // 
             // FlowPanel1
             // 
+            this.FlowPanel1.AutoScroll = true;
             this.FlowPanel1.Location = new System.Drawing.Point(3, 3);
+            this.FlowPanel1.MinimumSize = new System.Drawing.Size(718, 250);
             this.FlowPanel1.Name = "FlowPanel1";
             this.FlowPanel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.FlowPanel1.Size = new System.Drawing.Size(718, 250);
@@ -69,9 +71,11 @@
             // 
             // FlowPanel2
             // 
+            this.FlowPanel2.AutoScroll = true;
             this.FlowPanel2.Location = new System.Drawing.Point(3, 259);
+            this.FlowPanel2.MinimumSize = new System.Drawing.Size(718, 262);
             this.FlowPanel2.Name = "FlowPanel2";
-            this.FlowPanel2.Size = new System.Drawing.Size(718, 262);
+            this.FlowPanel2.Size = new System.Drawing.Size(718, 298);
             this.FlowPanel2.TabIndex = 1;
             this.FlowPanel2.Visible = false;
             // 
@@ -141,6 +145,7 @@
             this.WMP.TabIndex = 9;
             this.WMP.TabStop = false;
             this.WMP.Visible = false;
+            this.WMP.Enter += new System.EventHandler(this.WMP_Enter);
             // 
             // btnAtras
             // 

@@ -175,6 +175,9 @@
   <data name="Lección9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Lección9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Lectura_Leccion_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lectura-Leccion-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="left_arrow__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\left-arrow (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -189,6 +192,9 @@
   </data>
   <data name="tocarAncho" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tocarAncho.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tocarAncho_chico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tocarAncho-chico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Tutorial__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Tutorial (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
