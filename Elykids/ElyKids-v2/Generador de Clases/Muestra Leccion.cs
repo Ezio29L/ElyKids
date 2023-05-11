@@ -26,10 +26,10 @@ namespace Generador_de_Clases
             lblNum.Text = Target.Numero.ToString();
             
         }
-
+        //
         private void button1_Click(object sender, EventArgs e)
         {
-            Lecturas Copia = Target.lectura;
+            Lecturas Copia = Target.mostrarlecturas();
             Copia.ShowDialog();
         }
     }

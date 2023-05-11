@@ -49,8 +49,7 @@ namespace Generador_de_Clases
         {
             if((textBox2.Text!=string.Empty)&&(textBox3.Text!=string.Empty)&&(textBox4.Text!=string.Empty))
             {
-                Lecturas Lee = new Lecturas(lectura, "Lectura-Leccion-" + textBox3.Text + ".png");
-                lecciones.Add(new Lecciones(textBox2.Text,Convert.ToInt32(textBox3.Text),Lee));
+                lecciones.Add(new Lecciones(textBox2.Text,Convert.ToInt32(textBox3.Text), lectura));
                 listBox2.Items.Add(textBox2.Text);
                 lectura.Clear();
                 listBox1.Items.Clear();
