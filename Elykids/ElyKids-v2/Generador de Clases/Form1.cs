@@ -107,7 +107,10 @@ namespace Generador_de_Clases
                         using (Stream st = File.Open(dialogo.FileName, FileMode.Open))
                         {
                             var formato = new System.Runtime.Serialization.Formatters.Binary.BinaryFormatter();
-                            GrupoLecciones Gl = (GrupoLecciones)formato.Deserialize(st);
+
+                            
+
+                            GrupoLecciones Gl = (GrupoLecciones) formato.Deserialize(st);
 
                             textBox1.Text = Gl.NombreGrupo;
                             listBox2.Items.Clear();

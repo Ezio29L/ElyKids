@@ -12,7 +12,7 @@ namespace ElyKids_Software_Didactico
     public class GrupoLecciones
     {
         public string NombreGrupo;
-        public List<Lecciones> lecciones;
+        public List<Lecciones> lecciones = new List<Lecciones>();
 
         public GrupoLecciones(List<Lecciones> lecciones, string nombreGrupo)
         {
