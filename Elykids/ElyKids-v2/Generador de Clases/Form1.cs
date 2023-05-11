@@ -109,7 +109,7 @@ namespace Generador_de_Clases
                             var formato = new System.Runtime.Serialization.Formatters.Binary.BinaryFormatter();
 
                             
-
+                            //Aqui esta el problema, pero aun estoy trabajando en el.
                             GrupoLecciones Gl = (GrupoLecciones) formato.Deserialize(st);
 
                             textBox1.Text = Gl.NombreGrupo;
