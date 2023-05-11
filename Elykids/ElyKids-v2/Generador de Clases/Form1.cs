@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.Xml;
+using System.Xml.Serialization;
 using System.Windows.Forms;
 using ElyKids_Software_Didactico;
 
@@ -76,13 +78,30 @@ namespace Generador_de_Clases
         private void button5_Click(object sender, EventArgs e)
         {
             GrupoLecciones Parte = new GrupoLecciones(lecciones, textBox1.Text);
-            lblMensaje.Text = Parte.Guardar();
-            if (lblMensaje.Text == "Se supone que se guardo, compruebalo") 
+            try
             {
-                lecciones.Clear();
-                listBox2.Items.Clear();
+                using (System.Windows.Forms.SaveFileDialog dialogo = new System.Windows.Forms.SaveFileDialog())
+                {
+                    dialogo.FileName = textBox1.Text;
+                    if (dialogo.ShowDialog() == DialogResult.OK)
+                    {
+                        using (var st = new StreamWriter (dialogo.FileName))
+                        {
+                            var formato = new XmlSerializer(typeof(GrupoLecciones));
+                            formato.Serialize(st, Parte);
+                            lblMensaje.Text = "Se supone que se guardo, compruebalo";
+                        }
+                    }
+                    else
+                    {
+                        lblMensaje.Text = "No se ha guardado aun.";
+                    }
+                }
             }
-
+            catch (Exception ex)
+            {
+                lblMensaje.Text = "Valio madre esta Guardada";
+            }
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -106,7 +125,7 @@ namespace Generador_de_Clases
                     {
                         using (Stream st = File.Open(dialogo.FileName, FileMode.Open))
                         {
-                            var formato = new System.Runtime.Serialization.Formatters.Binary.BinaryFormatter();
+                            var formato = new XmlSerializer(typeof(GrupoLecciones));
 
                             
                             //Aqui esta el problema, pero aun estoy trabajando en el.
@@ -132,6 +151,11 @@ namespace Generador_de_Clases
             {
                 MessageBox.Show("Valio madre este pedo");
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

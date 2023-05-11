@@ -29,6 +29,10 @@ namespace ElyKids_Software_Didactico
             NombrePortada= NombreImagen;
             
         }
+        public Lecturas()
+        {
+            //este constructor es nomas para lo de Cargar Instancias desde archivos y NUNCA debe ser usado en Codigo
+        }
 
         private void Lecturas_Load(object sender, EventArgs e)
         {

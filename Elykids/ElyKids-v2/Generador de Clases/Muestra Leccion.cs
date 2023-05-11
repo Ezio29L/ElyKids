@@ -29,7 +29,8 @@ namespace Generador_de_Clases
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Target.lectura.Show();
+            Lecturas Copia = Target.lectura;
+            Copia.ShowDialog();
         }
     }
 }
