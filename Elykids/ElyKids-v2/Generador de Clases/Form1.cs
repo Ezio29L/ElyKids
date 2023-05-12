@@ -47,9 +47,9 @@ namespace Generador_de_Clases
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if((textBox2.Text!=string.Empty)&&(textBox3.Text!=string.Empty)&&(textBox4.Text!=string.Empty))
+            if (textBox2.Text != string.Empty && textBox3.Text != string.Empty && textBox4.Text != string.Empty)
             {
-                lecciones.Add(new Lecciones(textBox2.Text,Convert.ToInt32(textBox3.Text), lectura));
+                lecciones.Add(new Lecciones(textBox2.Text, Convert.ToInt32(textBox3.Text), new List<string>(lectura)));
                 listBox2.Items.Add(textBox2.Text);
                 lectura.Clear();
                 listBox1.Items.Clear();
@@ -59,9 +59,10 @@ namespace Generador_de_Clases
             }
             else
             {
-                lblMensaje.Text = "Falta algun campo";
+                lblMensaje.Text = "Falta algún campo";
             }
         }
+
 
         private void button4_Click(object sender, EventArgs e)
         {
