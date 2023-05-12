@@ -30,6 +30,7 @@ namespace Generador_de_Clases
             {
                 listBox1.Items.Add(textBox4.Text);
                 lectura.Add(textBox4.Text);
+                textBox4.Text = string.Empty;
             }
         }
 

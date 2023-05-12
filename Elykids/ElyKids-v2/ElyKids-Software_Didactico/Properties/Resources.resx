@@ -178,6 +178,27 @@
   <data name="Lectura_Leccion_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Lectura-Leccion-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Lectura_Leccion_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lectura-Leccion-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lectura_Leccion_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lectura-Leccion-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lectura_Leccion_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lectura-Leccion-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lectura_Leccion_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lectura-Leccion-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lectura_Leccion_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lectura-Leccion-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lectura_Leccion_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lectura-Leccion-7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lectura_Leccion_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lectura-Leccion-8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="left_arrow__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\left-arrow (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>

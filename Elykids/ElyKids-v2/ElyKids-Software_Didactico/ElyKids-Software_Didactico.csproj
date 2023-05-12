@@ -242,5 +242,26 @@
   <ItemGroup>
     <None Include="Resources\Lectura-Leccion-1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lectura-Leccion-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lectura-Leccion-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lectura-Leccion-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lectura-Leccion-5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lectura-Leccion-6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lectura-Leccion-7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lectura-Leccion-8.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

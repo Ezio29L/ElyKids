@@ -46,7 +46,7 @@
             // 
             // PnlVol
             // 
-            this.PnlVol.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.PnlVol.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PnlVol.Controls.Add(this.trbVolumen);
             this.PnlVol.Controls.Add(this.lblVol);
             this.PnlVol.Location = new System.Drawing.Point(568, 15);
@@ -116,7 +116,7 @@
             // 
             // btnSig
             // 
-            this.btnSig.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnSig.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSig.BackColor = System.Drawing.Color.Transparent;
             this.btnSig.BackgroundColor = System.Drawing.Color.Transparent;
             this.btnSig.BorderColor = System.Drawing.Color.Black;

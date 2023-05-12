@@ -282,6 +282,76 @@ namespace ElyKids_Software_Didactico.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Lectura_Leccion_2 {
+            get {
+                object obj = ResourceManager.GetObject("Lectura_Leccion_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Lectura_Leccion_3 {
+            get {
+                object obj = ResourceManager.GetObject("Lectura_Leccion_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Lectura_Leccion_4 {
+            get {
+                object obj = ResourceManager.GetObject("Lectura_Leccion_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Lectura_Leccion_5 {
+            get {
+                object obj = ResourceManager.GetObject("Lectura_Leccion_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Lectura_Leccion_6 {
+            get {
+                object obj = ResourceManager.GetObject("Lectura_Leccion_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Lectura_Leccion_7 {
+            get {
+                object obj = ResourceManager.GetObject("Lectura_Leccion_7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Lectura_Leccion_8 {
+            get {
+                object obj = ResourceManager.GetObject("Lectura_Leccion_8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap left_arrow__1_ {
             get {
                 object obj = ResourceManager.GetObject("left_arrow__1_", resourceCulture);
