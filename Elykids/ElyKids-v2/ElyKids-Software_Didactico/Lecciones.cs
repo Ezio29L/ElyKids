@@ -31,32 +31,7 @@ namespace ElyKids_Software_Didactico
             FileInfo file = new FileInfo(@"../../Resources/" + url);
             return file.FullName;
         }
-        /*public string Guardar()
-        {
-            try
-            {
-                using (System.Windows.Forms.SaveFileDialog dialogo = new System.Windows.Forms.SaveFileDialog())
-                {
-                    if (dialogo.ShowDialog() == DialogResult.OK)
-                    {
-                        using (Stream st = File.Open(dialogo.FileName, FileMode.Create))
-                        {
-                            var formato = new System.Runtime.Serialization.Formatters.Binary.BinaryFormatter();
-                            formato.Serialize(st, this);
-                        }
-                        return "Se supone que se guardo, compruebalo";
-                    }
-                    else
-                    {
-                        return "No se ha guardado aun.";
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                return "Valio madre esta Guardada";
-            }
-        }*/
+        
     }
     [Serializable()]
     public class Lecciones

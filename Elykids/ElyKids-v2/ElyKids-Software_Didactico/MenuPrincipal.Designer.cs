@@ -31,20 +31,22 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuPrincipal));
             this.FlowPrincipal = new System.Windows.Forms.FlowLayoutPanel();
             this.FlowPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnTutorial = new System.Windows.Forms.Button();
             this.FlowPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.btnSalir = new CustomControls.EControls.EButton();
             this.PnlVol = new System.Windows.Forms.Panel();
             this.trbVolumen = new System.Windows.Forms.TrackBar();
             this.lblVol = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.WMP = new AxWMPLib.AxWindowsMediaPlayer();
             this.btnAtras = new CustomControls.EControls.EButton();
             this.btnVolumen = new CustomControls.EControls.EButton();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnSalir = new CustomControls.EControls.EButton();
             this.FlowPrincipal.SuspendLayout();
+            this.FlowPanel1.SuspendLayout();
             this.PnlVol.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trbVolumen)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.WMP)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.WMP)).BeginInit();
             this.SuspendLayout();
             // 
             // FlowPrincipal
@@ -54,59 +56,49 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.FlowPrincipal.Controls.Add(this.FlowPanel1);
             this.FlowPrincipal.Controls.Add(this.FlowPanel2);
-            this.FlowPrincipal.Location = new System.Drawing.Point(142, 98);
+            this.FlowPrincipal.Location = new System.Drawing.Point(102, 120);
             this.FlowPrincipal.Name = "FlowPrincipal";
-            this.FlowPrincipal.Size = new System.Drawing.Size(725, 364);
+            this.FlowPrincipal.Size = new System.Drawing.Size(764, 376);
             this.FlowPrincipal.TabIndex = 0;
             // 
             // FlowPanel1
             // 
             this.FlowPanel1.AutoScroll = true;
+            this.FlowPanel1.Controls.Add(this.btnTutorial);
             this.FlowPanel1.Location = new System.Drawing.Point(3, 3);
             this.FlowPanel1.MinimumSize = new System.Drawing.Size(718, 250);
             this.FlowPanel1.Name = "FlowPanel1";
             this.FlowPanel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.FlowPanel1.Size = new System.Drawing.Size(718, 250);
+            this.FlowPanel1.Size = new System.Drawing.Size(758, 336);
             this.FlowPanel1.TabIndex = 0;
+            // 
+            // btnTutorial
+            // 
+            this.btnTutorial.Image = ((System.Drawing.Image)(resources.GetObject("btnTutorial.Image")));
+            this.btnTutorial.Location = new System.Drawing.Point(3, 3);
+            this.btnTutorial.Name = "btnTutorial";
+            this.btnTutorial.Size = new System.Drawing.Size(240, 320);
+            this.btnTutorial.TabIndex = 0;
+            this.btnTutorial.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnTutorial.UseVisualStyleBackColor = true;
+            this.btnTutorial.Click += new System.EventHandler(this.btnTutorial_Click);
             // 
             // FlowPanel2
             // 
             this.FlowPanel2.AutoScroll = true;
-            this.FlowPanel2.Location = new System.Drawing.Point(3, 259);
-            this.FlowPanel2.MinimumSize = new System.Drawing.Size(718, 262);
+            this.FlowPanel2.Location = new System.Drawing.Point(3, 345);
+            this.FlowPanel2.MinimumSize = new System.Drawing.Size(758, 365);
             this.FlowPanel2.Name = "FlowPanel2";
-            this.FlowPanel2.Size = new System.Drawing.Size(718, 298);
+            this.FlowPanel2.Size = new System.Drawing.Size(758, 365);
             this.FlowPanel2.TabIndex = 1;
             this.FlowPanel2.Visible = false;
-            // 
-            // btnSalir
-            // 
-            this.btnSalir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSalir.BackColor = System.Drawing.Color.Transparent;
-            this.btnSalir.BackgroundColor = System.Drawing.Color.Transparent;
-            this.btnSalir.BorderColor = System.Drawing.Color.Black;
-            this.btnSalir.BorderRadius = 15;
-            this.btnSalir.BorderSize = 5;
-            this.btnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSalir.FlatAppearance.BorderSize = 0;
-            this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalir.ForeColor = System.Drawing.Color.Black;
-            this.btnSalir.Location = new System.Drawing.Point(873, 12);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(55, 51);
-            this.btnSalir.TabIndex = 5;
-            this.btnSalir.Text = "x";
-            this.btnSalir.TextColor = System.Drawing.Color.Black;
-            this.btnSalir.UseVisualStyleBackColor = false;
-            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // PnlVol
             // 
             this.PnlVol.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.PnlVol.Controls.Add(this.trbVolumen);
             this.PnlVol.Controls.Add(this.lblVol);
-            this.PnlVol.Location = new System.Drawing.Point(619, 445);
+            this.PnlVol.Location = new System.Drawing.Point(633, 524);
             this.PnlVol.Name = "PnlVol";
             this.PnlVol.Size = new System.Drawing.Size(247, 50);
             this.PnlVol.TabIndex = 8;
@@ -135,13 +127,24 @@
             this.lblVol.TabIndex = 0;
             this.lblVol.Text = "100%";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImage = global::ElyKids_Software_Didactico.Properties.Resources.LOGO;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(210, 102);
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
             // WMP
             // 
             this.WMP.Enabled = true;
-            this.WMP.Location = new System.Drawing.Point(12, 98);
+            this.WMP.Location = new System.Drawing.Point(12, 154);
             this.WMP.Name = "WMP";
             this.WMP.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("WMP.OcxState")));
-            this.WMP.Size = new System.Drawing.Size(124, 117);
+            this.WMP.Size = new System.Drawing.Size(42, 44);
             this.WMP.TabIndex = 9;
             this.WMP.TabStop = false;
             this.WMP.Visible = false;
@@ -162,7 +165,7 @@
             this.btnAtras.ForeColor = System.Drawing.Color.Black;
             this.btnAtras.Image = global::ElyKids_Software_Didactico.Properties.Resources.left_arrow__1_;
             this.btnAtras.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnAtras.Location = new System.Drawing.Point(12, 423);
+            this.btnAtras.Location = new System.Drawing.Point(12, 502);
             this.btnAtras.Name = "btnAtras";
             this.btnAtras.Size = new System.Drawing.Size(127, 69);
             this.btnAtras.TabIndex = 7;
@@ -185,7 +188,7 @@
             this.btnVolumen.FlatAppearance.BorderSize = 0;
             this.btnVolumen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVolumen.ForeColor = System.Drawing.Color.Black;
-            this.btnVolumen.Location = new System.Drawing.Point(873, 451);
+            this.btnVolumen.Location = new System.Drawing.Point(887, 530);
             this.btnVolumen.Name = "btnVolumen";
             this.btnVolumen.Size = new System.Drawing.Size(49, 41);
             this.btnVolumen.TabIndex = 6;
@@ -193,23 +196,34 @@
             this.btnVolumen.UseVisualStyleBackColor = false;
             this.btnVolumen.Click += new System.EventHandler(this.btnVolumen_Click);
             // 
-            // pictureBox1
+            // btnSalir
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = global::ElyKids_Software_Didactico.Properties.Resources.LOGO;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(151, 80);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.btnSalir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSalir.BackColor = System.Drawing.Color.Transparent;
+            this.btnSalir.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btnSalir.BorderColor = System.Drawing.Color.Black;
+            this.btnSalir.BorderRadius = 15;
+            this.btnSalir.BorderSize = 5;
+            this.btnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSalir.FlatAppearance.BorderSize = 0;
+            this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir.ForeColor = System.Drawing.Color.Black;
+            this.btnSalir.Location = new System.Drawing.Point(887, 12);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(55, 51);
+            this.btnSalir.TabIndex = 5;
+            this.btnSalir.Text = "x";
+            this.btnSalir.TextColor = System.Drawing.Color.Black;
+            this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // MenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(241)))), ((int)(((byte)(215)))));
-            this.ClientSize = new System.Drawing.Size(940, 504);
+            this.ClientSize = new System.Drawing.Size(954, 583);
             this.Controls.Add(this.WMP);
             this.Controls.Add(this.PnlVol);
             this.Controls.Add(this.btnAtras);
@@ -217,16 +231,17 @@
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.FlowPrincipal);
-            this.MinimumSize = new System.Drawing.Size(956, 543);
+            this.MinimumSize = new System.Drawing.Size(970, 622);
             this.Name = "MenuPrincipal";
             this.Text = "MenuPrincipal";
             this.Load += new System.EventHandler(this.MenuPrincipal_Load);
             this.FlowPrincipal.ResumeLayout(false);
+            this.FlowPanel1.ResumeLayout(false);
             this.PnlVol.ResumeLayout(false);
             this.PnlVol.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trbVolumen)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.WMP)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.WMP)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -244,5 +259,6 @@
         private System.Windows.Forms.TrackBar trbVolumen;
         private System.Windows.Forms.Label lblVol;
         private AxWMPLib.AxWindowsMediaPlayer WMP;
+        private System.Windows.Forms.Button btnTutorial;
     }
 }

@@ -47,6 +47,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BotonesAlmacen.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DesplegarTutorial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesplegarTutorial.Designer.cs">
+      <DependentUpon>DesplegarTutorial.cs</DependentUpon>
+    </Compile>
     <Compile Include="EButton.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -77,6 +86,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DesplegarTutorial.resx">
+      <DependentUpon>DesplegarTutorial.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FInicio.resx">
       <DependentUpon>FInicio.cs</DependentUpon>
     </EmbeddedResource>
@@ -132,9 +144,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\cerrar.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\lección00.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Lección0.png" />
@@ -262,6 +271,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Lectura-Leccion-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GrupoLeccion_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GrupoLeccion_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tutoriales.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lección00.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tutorial_00.mp4" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton-de-pausa.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

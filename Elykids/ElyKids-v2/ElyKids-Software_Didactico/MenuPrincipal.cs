@@ -15,6 +15,7 @@ namespace ElyKids_Software_Didactico
     {
         //aqui estoy creando un atributo que sea una copia del volumen que se maneja aqui en el menu
         public int volumenActivo;
+        private int Estado = 0;
         public MenuPrincipal(int vol)
         {
             InitializeComponent();
@@ -41,6 +42,8 @@ namespace ElyKids_Software_Didactico
             //se le indica al WMP que suene la cancionsita en bucle
             WMP.settings.setMode("loop", true);
             //Y ya porfin se empieza la musica.
+            //lo que sigue es crear los botones 
+
 
         }
         private string ObtenerUrl(string url)
@@ -72,10 +75,20 @@ namespace ElyKids_Software_Didactico
 
         private void btnAtras_Click(object sender, EventArgs e)
         {
-            //se cierra el Menu con un mensaje interno de ok
-            DialogResult = DialogResult.OK;
-            WMP.Ctlcontrols.stop();
-            Close();
+            if (Estado == 0)
+            {
+                //se cierra el Menu con un mensaje interno de ok
+                DialogResult = DialogResult.OK;
+                WMP.Ctlcontrols.stop();
+                Close();
+            }else
+            {
+                FlowPanel1.Visible = true;
+                FlowPanel2.Visible = false; 
+                FlowPanel2.Controls.Clear();
+                Estado = 0; 
+            }
+            
         }
 
         private void WMP_Enter(object sender, EventArgs e)
@@ -83,6 +96,57 @@ namespace ElyKids_Software_Didactico
 
         }
 
+        private void btnTutorial_Click(object sender, EventArgs e)
+        {
+            FlowPanel1.Visible = false;
+            FlowPanel2.Visible = true;
+            if (Estado == 1)
+            {
+                //si ya hay botones en el FlowPanel2 se borran
+                FlowPanel2.Controls.Clear();
+                Estado= 0;
+            }
+            //aqui se deben crear 2 botones
+            System.Windows.Forms.Button btnL0 = new System.Windows.Forms.Button();
+            btnL0.Size= new System.Drawing.Size(277,356);
+            btnL0.Image = global::ElyKids_Software_Didactico.Properties.Resources.Lección0;
+            btnL0.ImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            btnL0.Text= string.Empty;
+            btnL0.Click += BtnL0_Click;
+            FlowPanel2.Controls.Add(btnL0);
 
+            System.Windows.Forms.Button btnL00 = new System.Windows.Forms.Button();
+            btnL00.Size = new System.Drawing.Size(277, 356);
+            btnL00.Image = global::ElyKids_Software_Didactico.Properties.Resources.lección00;
+            btnL00.ImageAlign= System.Drawing.ContentAlignment.MiddleCenter;
+            btnL00.Text= string.Empty;
+            btnL00.Click += BtnL00_Click;
+            FlowPanel2.Controls.Add(btnL00);
+
+            //le informa al sistema que haty botones en FlowPanel2
+            Estado = 1;
+        }
+
+        private void BtnL00_Click(object sender, EventArgs e)
+        {
+            DesplegarTutorial tutorial = new DesplegarTutorial(1);
+            this.Visible= false;
+            WMP.Ctlcontrols.pause();
+            tutorial.ShowDialog();
+            tutorial.Dispose();
+            this.Visible = true;
+            WMP.Ctlcontrols.play();
+        }
+
+        private void BtnL0_Click(object sender, EventArgs e)
+        {
+            DesplegarTutorial tutorial = new DesplegarTutorial(0);
+            this.Visible = false;
+            WMP.Ctlcontrols.pause();
+            tutorial.ShowDialog();
+            tutorial.Dispose();
+            this.Visible = true;
+            WMP.Ctlcontrols.play();
+        }
     }
 }
