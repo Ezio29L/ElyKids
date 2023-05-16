@@ -51,3 +51,4 @@ C:\Users\Hp\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Did
 C:\Users\Hp\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids-Software_Didactico.exe
 C:\Users\Hp\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids-Software_Didactico.pdb
 C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids_Software_Didactico.DesplegarTutorial.resources
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids_Software_Didactico.PortadaLeccion.resources

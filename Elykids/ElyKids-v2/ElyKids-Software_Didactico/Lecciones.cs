@@ -62,6 +62,10 @@ namespace ElyKids_Software_Didactico
             Lecturas esta = new Lecturas(this.Lectura, "Lectura-Leccion-" + Numero.ToString() + ".png");
             return esta;
         }
-        
+
+        public string[] ObtenerImagenesPortadaLeccion()
+        {
+            return Directory.GetFiles(ObtenerUrl(this.Nombre));
+        }
     }
 }

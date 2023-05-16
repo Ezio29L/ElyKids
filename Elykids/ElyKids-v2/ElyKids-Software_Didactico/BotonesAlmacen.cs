@@ -56,11 +56,21 @@ namespace ElyKids_Software_Didactico
             get { return leccion; }
             set { leccion = value; }
         }
-
+        
         public void CorrerLeccion(object sender, EventArgs e)
         {
             Lecturas lectura = leccion.mostrarlecturas();
             int Estado = 0;
+            string[] ImagenesPortadaLeccion = leccion.ObtenerImagenesPortadaLeccion();
+            PortadaLeccion portada;
+            if (ImagenesPortadaLeccion.Length == 1)
+            {
+                portada = new PortadaLeccion(leccion.Nombre, leccion.Numero.ToString(), ImagenesPortadaLeccion[0]);
+            }else
+            {
+                portada = new PortadaLeccion(leccion.Nombre, leccion.Numero.ToString(), ImagenesPortadaLeccion[0], ImagenesPortadaLeccion[1], ImagenesPortadaLeccion[2]);
+            }
+
             this.Parent.Parent.Parent.Visible= false;
             do
             {
@@ -68,14 +78,17 @@ namespace ElyKids_Software_Didactico
                 {
                     case 0:
                         //este caso muestra la portada
-                        Estado = 1;
+                        portada.ShowDialog();
+                        if(portada.DialogResult == DialogResult.OK) { Estado++; }
+                        else if(portada.DialogResult== DialogResult.Abort) { Estado--; }
+                        else if(portada.DialogResult== DialogResult.Cancel) { Estado = -2; }
                         break;
 
                     case 1:
                         //este caso muestra la lectura
                         lectura.ShowDialog();
                         if (lectura.DialogResult == DialogResult.OK) { Estado++; }
-                        else if (lectura.DialogResult == DialogResult.Abort) { Estado = -1; }
+                        else if (lectura.DialogResult == DialogResult.Abort) { Estado--; }
                         else if(lectura.DialogResult==DialogResult.Cancel) { Estado = -2; }
                         break;
 

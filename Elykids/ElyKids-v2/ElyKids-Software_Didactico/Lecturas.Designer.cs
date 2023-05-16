@@ -32,11 +32,11 @@
             this.trbVolumen = new System.Windows.Forms.TrackBar();
             this.lblVol = new System.Windows.Forms.Label();
             this.CajaLectura = new System.Windows.Forms.ListBox();
-            this.ImagenPrincipal = new System.Windows.Forms.PictureBox();
-            this.CajaLogo = new System.Windows.Forms.PictureBox();
-            this.btnSig = new CustomControls.EControls.EButton();
-            this.btnVolumen = new CustomControls.EControls.EButton();
             this.btnSalir = new CustomControls.EControls.EButton();
+            this.btnSig = new CustomControls.EControls.EButton();
+            this.ImagenPrincipal = new System.Windows.Forms.PictureBox();
+            this.btnVolumen = new CustomControls.EControls.EButton();
+            this.CajaLogo = new System.Windows.Forms.PictureBox();
             this.btnAtras = new CustomControls.EControls.EButton();
             this.PnlVol.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trbVolumen)).BeginInit();
@@ -49,7 +49,7 @@
             this.PnlVol.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PnlVol.Controls.Add(this.trbVolumen);
             this.PnlVol.Controls.Add(this.lblVol);
-            this.PnlVol.Location = new System.Drawing.Point(568, 15);
+            this.PnlVol.Location = new System.Drawing.Point(582, 15);
             this.PnlVol.Name = "PnlVol";
             this.PnlVol.Size = new System.Drawing.Size(247, 50);
             this.PnlVol.TabIndex = 12;
@@ -72,7 +72,7 @@
             this.lblVol.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblVol.AutoSize = true;
             this.lblVol.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblVol.Location = new System.Drawing.Point(190, 15);
+            this.lblVol.Location = new System.Drawing.Point(190, 12);
             this.lblVol.Name = "lblVol";
             this.lblVol.Size = new System.Drawing.Size(54, 20);
             this.lblVol.TabIndex = 0;
@@ -90,30 +90,31 @@
             this.CajaLectura.ItemHeight = 28;
             this.CajaLectura.Location = new System.Drawing.Point(98, 95);
             this.CajaLectura.Name = "CajaLectura";
-            this.CajaLectura.Size = new System.Drawing.Size(507, 308);
+            this.CajaLectura.Size = new System.Drawing.Size(521, 364);
             this.CajaLectura.TabIndex = 13;
             this.CajaLectura.SelectedIndexChanged += new System.EventHandler(this.CajaLectura_SelectedIndexChanged);
             // 
-            // ImagenPrincipal
+            // btnSalir
             // 
-            this.ImagenPrincipal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.ImagenPrincipal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ImagenPrincipal.Location = new System.Drawing.Point(611, 108);
-            this.ImagenPrincipal.Name = "ImagenPrincipal";
-            this.ImagenPrincipal.Size = new System.Drawing.Size(287, 279);
-            this.ImagenPrincipal.TabIndex = 14;
-            this.ImagenPrincipal.TabStop = false;
-            // 
-            // CajaLogo
-            // 
-            this.CajaLogo.BackColor = System.Drawing.Color.Transparent;
-            this.CajaLogo.BackgroundImage = global::ElyKids_Software_Didactico.Properties.Resources.LOGO;
-            this.CajaLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.CajaLogo.Location = new System.Drawing.Point(12, 12);
-            this.CajaLogo.Name = "CajaLogo";
-            this.CajaLogo.Size = new System.Drawing.Size(151, 80);
-            this.CajaLogo.TabIndex = 10;
-            this.CajaLogo.TabStop = false;
+            this.btnSalir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSalir.BackColor = System.Drawing.Color.Transparent;
+            this.btnSalir.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btnSalir.BorderColor = System.Drawing.Color.Black;
+            this.btnSalir.BorderRadius = 15;
+            this.btnSalir.BorderSize = 5;
+            this.btnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSalir.FlatAppearance.BorderSize = 0;
+            this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir.ForeColor = System.Drawing.Color.Black;
+            this.btnSalir.Location = new System.Drawing.Point(887, 12);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(55, 51);
+            this.btnSalir.TabIndex = 9;
+            this.btnSalir.Text = "x";
+            this.btnSalir.TextColor = System.Drawing.Color.Black;
+            this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // btnSig
             // 
@@ -130,7 +131,7 @@
             this.btnSig.ForeColor = System.Drawing.Color.Black;
             this.btnSig.Image = global::ElyKids_Software_Didactico.Properties.Resources.tocarAncho_chico;
             this.btnSig.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSig.Location = new System.Drawing.Point(751, 423);
+            this.btnSig.Location = new System.Drawing.Point(765, 502);
             this.btnSig.Name = "btnSig";
             this.btnSig.Size = new System.Drawing.Size(177, 69);
             this.btnSig.TabIndex = 15;
@@ -138,6 +139,16 @@
             this.btnSig.TextColor = System.Drawing.Color.Black;
             this.btnSig.UseVisualStyleBackColor = false;
             this.btnSig.Click += new System.EventHandler(this.btnSig_Click);
+            // 
+            // ImagenPrincipal
+            // 
+            this.ImagenPrincipal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.ImagenPrincipal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ImagenPrincipal.Location = new System.Drawing.Point(625, 108);
+            this.ImagenPrincipal.Name = "ImagenPrincipal";
+            this.ImagenPrincipal.Size = new System.Drawing.Size(287, 279);
+            this.ImagenPrincipal.TabIndex = 14;
+            this.ImagenPrincipal.TabStop = false;
             // 
             // btnVolumen
             // 
@@ -153,7 +164,7 @@
             this.btnVolumen.FlatAppearance.BorderSize = 0;
             this.btnVolumen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVolumen.ForeColor = System.Drawing.Color.Black;
-            this.btnVolumen.Location = new System.Drawing.Point(818, 19);
+            this.btnVolumen.Location = new System.Drawing.Point(832, 19);
             this.btnVolumen.Name = "btnVolumen";
             this.btnVolumen.Size = new System.Drawing.Size(49, 41);
             this.btnVolumen.TabIndex = 11;
@@ -161,27 +172,16 @@
             this.btnVolumen.UseVisualStyleBackColor = false;
             this.btnVolumen.Click += new System.EventHandler(this.btnVolumen_Click);
             // 
-            // btnSalir
+            // CajaLogo
             // 
-            this.btnSalir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSalir.BackColor = System.Drawing.Color.Transparent;
-            this.btnSalir.BackgroundColor = System.Drawing.Color.Transparent;
-            this.btnSalir.BorderColor = System.Drawing.Color.Black;
-            this.btnSalir.BorderRadius = 15;
-            this.btnSalir.BorderSize = 5;
-            this.btnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSalir.FlatAppearance.BorderSize = 0;
-            this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalir.ForeColor = System.Drawing.Color.Black;
-            this.btnSalir.Location = new System.Drawing.Point(873, 12);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(55, 51);
-            this.btnSalir.TabIndex = 9;
-            this.btnSalir.Text = "x";
-            this.btnSalir.TextColor = System.Drawing.Color.Black;
-            this.btnSalir.UseVisualStyleBackColor = false;
-            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            this.CajaLogo.BackColor = System.Drawing.Color.Transparent;
+            this.CajaLogo.BackgroundImage = global::ElyKids_Software_Didactico.Properties.Resources.LOGO;
+            this.CajaLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.CajaLogo.Location = new System.Drawing.Point(12, 12);
+            this.CajaLogo.Name = "CajaLogo";
+            this.CajaLogo.Size = new System.Drawing.Size(151, 80);
+            this.CajaLogo.TabIndex = 10;
+            this.CajaLogo.TabStop = false;
             // 
             // btnAtras
             // 
@@ -198,7 +198,7 @@
             this.btnAtras.ForeColor = System.Drawing.Color.Black;
             this.btnAtras.Image = global::ElyKids_Software_Didactico.Properties.Resources.left_arrow__1_;
             this.btnAtras.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnAtras.Location = new System.Drawing.Point(12, 423);
+            this.btnAtras.Location = new System.Drawing.Point(12, 502);
             this.btnAtras.Name = "btnAtras";
             this.btnAtras.Size = new System.Drawing.Size(127, 69);
             this.btnAtras.TabIndex = 8;
@@ -212,7 +212,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(241)))), ((int)(((byte)(215)))));
-            this.ClientSize = new System.Drawing.Size(940, 504);
+            this.ClientSize = new System.Drawing.Size(954, 583);
             this.Controls.Add(this.btnSig);
             this.Controls.Add(this.ImagenPrincipal);
             this.Controls.Add(this.CajaLectura);
@@ -221,7 +221,7 @@
             this.Controls.Add(this.CajaLogo);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnAtras);
-            this.MinimumSize = new System.Drawing.Size(956, 543);
+            this.MinimumSize = new System.Drawing.Size(970, 622);
             this.Name = "Lecturas";
             this.Text = "Lecturas";
             this.Load += new System.EventHandler(this.Lecturas_Load);
