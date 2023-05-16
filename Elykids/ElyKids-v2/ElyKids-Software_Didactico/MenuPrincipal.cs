@@ -81,7 +81,9 @@ namespace ElyKids_Software_Didactico
 
         private void MenuPrincipal_Resize(object sender, EventArgs e)
         {
-
+            FlowPanel1.Width = this.Width - 192;
+            FlowPanel2.Width = this.Width - 192;
+            FlowPanel2.Height = this.Height - 246;
         }
 
         private void BtnGrupo_Click(object sender, EventArgs e)
