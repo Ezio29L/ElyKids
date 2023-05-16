@@ -116,28 +116,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\fondo.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\menu.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Speaker_Icon.svg.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\1ra parte.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\2da parte.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\botonAtrás-PhotoRoom.png-PhotoRoom.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\botonSig-PhotoRoom.png-PhotoRoom.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cerrar.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Lección0.png" />
@@ -146,61 +125,7 @@
     <None Include="Resources\Pantalla de inicio.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Tutorial %282%29.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\volumen.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\leccion 4.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Leccion1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Leccion2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\leccion3.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Lección5.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Lección6.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Lección7.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\leccion8.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Lección9.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\leccion10.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\leccion11.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Lección12.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Lección13.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\lección14.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Lección15.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\leccion16.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\letra-x.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\tocar.png" />
@@ -229,9 +154,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\intro.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\left-arrow.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\left-arrow %281%29.png" />
