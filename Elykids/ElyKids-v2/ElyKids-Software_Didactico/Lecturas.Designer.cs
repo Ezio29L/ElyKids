@@ -84,12 +84,13 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.CajaLectura.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(241)))), ((int)(((byte)(215)))));
+            this.CajaLectura.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CajaLectura.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CajaLectura.FormattingEnabled = true;
             this.CajaLectura.ItemHeight = 28;
-            this.CajaLectura.Location = new System.Drawing.Point(173, 95);
+            this.CajaLectura.Location = new System.Drawing.Point(98, 95);
             this.CajaLectura.Name = "CajaLectura";
-            this.CajaLectura.Size = new System.Drawing.Size(432, 368);
+            this.CajaLectura.Size = new System.Drawing.Size(507, 308);
             this.CajaLectura.TabIndex = 13;
             this.CajaLectura.SelectedIndexChanged += new System.EventHandler(this.CajaLectura_SelectedIndexChanged);
             // 

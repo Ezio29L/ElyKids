@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Serialization;
 
 namespace ElyKids_Software_Didactico
 {
@@ -15,7 +16,15 @@ namespace ElyKids_Software_Didactico
     {
         //aqui estoy creando un atributo que sea una copia del volumen que se maneja aqui en el menu
         public int volumenActivo;
+
+        //un indicador de en que estado se esta. 0 es para no hay botones en el FlowPanel2 y 1 es para Si hay botones en el FlowPanel2
         private int Estado = 0;
+
+        public int EstadoActual
+        {
+            get { return Estado; }
+            set { Estado = value; }
+        }
         public MenuPrincipal(int vol)
         {
             InitializeComponent();
@@ -43,9 +52,51 @@ namespace ElyKids_Software_Didactico
             WMP.settings.setMode("loop", true);
             //Y ya porfin se empieza la musica.
             //lo que sigue es crear los botones 
+            string[] Partes = Directory.GetFiles(ObtenerUrl("GruposDeLecciones"));
 
+            int contadorPartes = 1;
+
+            foreach (string p in Partes)
+            {
+                Stream st = File.Open(p, FileMode.Open);
+                var formato = new XmlSerializer(typeof(GrupoLecciones));
+
+                GrupoLecciones Gl = (GrupoLecciones) formato.Deserialize(st);
+
+                BotonesGrupoAlmacen btnGrupo = new BotonesGrupoAlmacen();
+                btnGrupo.Size = new System.Drawing.Size(240, 320);
+                btnGrupo.Text = string.Empty;
+                btnGrupo.Encapsulado = Gl;
+                btnGrupo.Image = Image.FromFile((ObtenerUrl("GrupoLeccion_" + contadorPartes.ToString() + ".jpg")));
+                btnGrupo.ImageAlign = ContentAlignment.MiddleCenter;
+                btnGrupo.Click += BtnGrupo_Click;
+                btnGrupo.Click += new EventHandler(btnGrupo.GenerarOtrosBotones);
+                
+                FlowPanel1.Controls.Add(btnGrupo);
+                contadorPartes++;
+                
+            }
 
         }
+
+        private void MenuPrincipal_Resize(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnGrupo_Click(object sender, EventArgs e)
+        {
+            FlowPanel1.Visible = false;
+            FlowPanel2.Visible = true;
+
+            if (Estado == 1)
+            {
+                FlowPanel2.Controls.Clear();
+            }
+
+            Estado= 1;
+        }
+
         private string ObtenerUrl(string url)
         {
             //Esta funcion pasa la direccion de un recurso dado a un formato en que el objeto Windows Media Player puede entender.

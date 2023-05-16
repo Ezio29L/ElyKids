@@ -30,7 +30,7 @@ namespace ElyKids_Software_Didactico
                     WMP.URL = ObtenerUrl("Tutorial_00.mp4");
                     break;
                 case 0:
-                    MessageBox.Show("a la vuelta joven");
+                    WMP.URL = ObtenerUrl("Tutorial 0.mp4");
                     break;
             }
             WMP.uiMode = "none";

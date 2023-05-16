@@ -102,6 +102,86 @@ namespace ElyKids_Software_Didactico.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Leccion_1 {
+            get {
+                object obj = ResourceManager.GetObject("Leccion_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Leccion_2 {
+            get {
+                object obj = ResourceManager.GetObject("Leccion_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Leccion_3 {
+            get {
+                object obj = ResourceManager.GetObject("Leccion_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Leccion_4 {
+            get {
+                object obj = ResourceManager.GetObject("Leccion_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Leccion_5 {
+            get {
+                object obj = ResourceManager.GetObject("Leccion_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Leccion_6 {
+            get {
+                object obj = ResourceManager.GetObject("Leccion_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Leccion_7 {
+            get {
+                object obj = ResourceManager.GetObject("Leccion_7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Leccion_8 {
+            get {
+                object obj = ResourceManager.GetObject("Leccion_8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Lección0 {
             get {
                 object obj = ResourceManager.GetObject("Lección0", resourceCulture);
@@ -265,6 +345,16 @@ namespace ElyKids_Software_Didactico.Properties {
             get {
                 object obj = ResourceManager.GetObject("tocarAncho_chico", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Tutorial_0 {
+            get {
+                object obj = ResourceManager.GetObject("Tutorial_0", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
