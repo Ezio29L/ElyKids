@@ -118,35 +118,47 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="boton_de_pausa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\boton-de-pausa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GrupoLeccion_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GrupoLeccion_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GrupoLeccion_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GrupoLeccion_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="intro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\intro.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Leccion_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Leccion_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Lectura_Leccion_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lectura-Leccion-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Leccion_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Leccion_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="boton_de_pausa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boton-de-pausa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lección0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lección0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Leccion_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Leccion_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Leccion_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Leccion_4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="GrupoLeccion_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GrupoLeccion_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Leccion_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Leccion_5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Lectura_Leccion_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lectura-Leccion-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lectura_Leccion_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lectura-Leccion-8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tutoriales" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tutoriales.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Leccion_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Leccion_6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tocarAncho_chico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tocarAncho-chico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lección00" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lección00.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lectura_Leccion_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lectura-Leccion-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Leccion_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Leccion_7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,67 +166,58 @@
   <data name="Leccion_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Leccion_8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Lección0" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Lección0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lección00" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lección00.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Lectura_Leccion_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Lectura-Leccion-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Lectura_Leccion_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Lectura-Leccion-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Lectura_Leccion_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Lectura-Leccion-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Lectura_Leccion_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Lectura-Leccion-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Lectura_Leccion_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Lectura-Leccion-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Lectura_Leccion_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Lectura-Leccion-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Lectura_Leccion_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Lectura-Leccion-7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Lectura_Leccion_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Lectura-Leccion-8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="left_arrow__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\left-arrow (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LOGO" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LOGO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\menu.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Pantalla_de_inicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Pantalla de inicio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="tocar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tocar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="tocarAncho" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tocarAncho.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="tocarAncho_chico" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tocarAncho-chico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Tutoriales" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Tutoriales.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Tutorial_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Tutorial 0.mp4;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Tutorial_00" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Tutorial_00.mp4;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="Pantalla_de_inicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pantalla de inicio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tutorial_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tutorial 0.mp4;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="volumen" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\volumen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tocarAncho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tocarAncho.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lectura_Leccion_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lectura-Leccion-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrupoLeccion_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GrupoLeccion_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="intro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\intro.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Lectura_Leccion_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lectura-Leccion-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOGO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LOGO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lectura_Leccion_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lectura-Leccion-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Leccion_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Leccion_4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lectura_Leccion_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lectura-Leccion-7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Leccion_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Leccion_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="left_arrow__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\left-arrow (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="D-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\D-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
