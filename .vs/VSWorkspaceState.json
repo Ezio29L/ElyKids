@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Elykids",
+    "\\Elykids\\ElyKids-v2",
+    "\\Elykids\\ElyKids-v2\\ElyKids-Software_Didactico"
   ],
+  "SelectedNode": "\\Elykids\\ElyKids-v2\\ElyKids-Software_Didactico\\BotonesAlmacen.cs",
   "PreviewInSolutionExplorer": false
 }
