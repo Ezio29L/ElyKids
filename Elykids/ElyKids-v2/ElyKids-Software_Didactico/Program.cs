@@ -16,9 +16,8 @@ namespace ElyKids_Software_Didactico
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Trazado());
-            /*FInicio inicio = new FInicio();
-            inicio.Show();*/
+            Application.Run(new FInicio());
+            
         }
     }
 }

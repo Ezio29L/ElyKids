@@ -3,8 +3,10 @@
     "",
     "\\Elykids",
     "\\Elykids\\ElyKids-v2",
-    "\\Elykids\\ElyKids-v2\\ElyKids-Software_Didactico"
+    "\\Elykids\\ElyKids-v2\\ElyKids-Software_Didactico",
+    "\\Elykids\\ElyKids-v2\\ElyKids-Software_Didactico\\Properties",
+    "\\Elykids\\ElyKids-v2\\Generador de Clases"
   ],
-  "SelectedNode": "\\Elykids\\ElyKids-v2\\ElyKids-Software_Didactico\\BotonesAlmacen.cs",
+  "SelectedNode": "\\Elykids\\ElyKids-v2\\ElyKids-Software_Didactico\\PortadaLeccion.cs",
   "PreviewInSolutionExplorer": false
 }

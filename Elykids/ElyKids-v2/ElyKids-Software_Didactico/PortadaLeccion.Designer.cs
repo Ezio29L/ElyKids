@@ -182,8 +182,7 @@
             // 
             // lblLeccion
             // 
-            this.lblLeccion.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblLeccion.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblLeccion.AutoSize = true;
             this.lblLeccion.Font = new System.Drawing.Font("Ink Free", 34F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLeccion.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
@@ -196,6 +195,7 @@
             // 
             // lblTitulo
             // 
+            this.lblTitulo.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.Font = new System.Drawing.Font("Century Gothic", 38F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitulo.Location = new System.Drawing.Point(298, 155);
@@ -221,6 +221,7 @@
             this.MinimumSize = new System.Drawing.Size(970, 622);
             this.Name = "PortadaLeccion";
             this.Text = "PortadaLeccion";
+            this.Load += new System.EventHandler(this.PortadaLeccion_Load);
             this.Resize += new System.EventHandler(this.PortadaLeccion_Resize);
             ((System.ComponentModel.ISupportInitialize)(this.CajaLogo)).EndInit();
             this.PnlVol.ResumeLayout(false);

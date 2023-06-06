@@ -79,6 +79,7 @@
             // 
             // trbVolumen
             // 
+            this.trbVolumen.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.trbVolumen.Cursor = System.Windows.Forms.Cursors.Hand;
             this.trbVolumen.Location = new System.Drawing.Point(53, 2);
             this.trbVolumen.Maximum = 100;
@@ -102,6 +103,9 @@
             // 
             // WMP
             // 
+            this.WMP.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.WMP.Enabled = true;
             this.WMP.Location = new System.Drawing.Point(204, 100);
             this.WMP.Name = "WMP";
@@ -112,6 +116,7 @@
             // 
             // btnPausaPlay
             // 
+            this.btnPausaPlay.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnPausaPlay.BackColor = System.Drawing.Color.Transparent;
             this.btnPausaPlay.BackgroundColor = System.Drawing.Color.Transparent;
             this.btnPausaPlay.BorderColor = System.Drawing.Color.Black;
@@ -199,6 +204,7 @@
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnAtras);
             this.Controls.Add(this.pictureBox1);
+            this.MinimumSize = new System.Drawing.Size(970, 622);
             this.Name = "DesplegarTutorial";
             this.Text = "DesplegarTutorial";
             this.Load += new System.EventHandler(this.DesplegarTutorial_Load);

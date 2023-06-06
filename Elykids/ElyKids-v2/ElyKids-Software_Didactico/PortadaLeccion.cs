@@ -116,5 +116,10 @@ namespace ElyKids_Software_Didactico
         {
             lblVol.Text = (trbVolumen.Value.ToString()) + "%";
         }
+
+        private void PortadaLeccion_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
