@@ -204,6 +204,7 @@
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnAtras);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(970, 622);
             this.Name = "DesplegarTutorial";
             this.Text = "DesplegarTutorial";

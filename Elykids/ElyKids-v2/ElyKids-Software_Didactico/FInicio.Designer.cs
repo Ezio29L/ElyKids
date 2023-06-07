@@ -184,6 +184,7 @@
             this.Controls.Add(this.WMP);
             this.Controls.Add(this.label1);
             this.DoubleBuffered = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(758, 467);
             this.Name = "FInicio";
             this.Text = "FInicio";

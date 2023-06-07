@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Portada));
             this.CajaLogo = new System.Windows.Forms.PictureBox();
             this.btnSalir = new CustomControls.EControls.EButton();
             this.btnSig = new CustomControls.EControls.EButton();
@@ -204,7 +205,7 @@
             this.lblTitulo.TabIndex = 21;
             this.lblTitulo.Text = "label2";
             // 
-            // PortadaLeccion
+            // Portada
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -218,8 +219,9 @@
             this.Controls.Add(this.btnSig);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.CajaLogo);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(970, 622);
-            this.Name = "PortadaLeccion";
+            this.Name = "Portada";
             this.Text = "PortadaLeccion";
             this.Load += new System.EventHandler(this.PortadaLeccion_Load);
             this.Resize += new System.EventHandler(this.PortadaLeccion_Resize);

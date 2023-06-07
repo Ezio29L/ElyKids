@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AcMemorama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AcMemorama.Designer.cs">
+      <DependentUpon>AcMemorama.cs</DependentUpon>
+    </Compile>
     <Compile Include="BotonesAlmacen.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -92,6 +98,9 @@
     <Compile Include="Trazado.Designer.cs">
       <DependentUpon>Trazado.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AcMemorama.resx">
+      <DependentUpon>AcMemorama.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DesplegarTutorial.resx">
       <DependentUpon>DesplegarTutorial.cs</DependentUpon>
     </EmbeddedResource>
@@ -109,14 +118,8 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="Trazado.resx">
       <DependentUpon>Trazado.cs</DependentUpon>
     </EmbeddedResource>
@@ -313,6 +316,69 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\yoyo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Palma.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dino dame la mano.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dino1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dinosaurio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\El pan y la sopa1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Es alta y luminosa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\La luna.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mamá.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mami me cuida.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Me ama.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Me da sopa de fideo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Memorama Atrás.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mi abuela fabi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mira ana la luna.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mira un ñu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Se baña.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sopa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Toño.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vamos de paseo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

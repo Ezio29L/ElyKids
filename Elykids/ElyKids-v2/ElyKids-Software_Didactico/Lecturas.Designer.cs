@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Lecturas));
             this.PnlVol = new System.Windows.Forms.Panel();
             this.trbVolumen = new System.Windows.Forms.TrackBar();
             this.lblVol = new System.Windows.Forms.Label();
@@ -221,6 +222,7 @@
             this.Controls.Add(this.CajaLogo);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnAtras);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(970, 622);
             this.Name = "Lecturas";
             this.Text = "Lecturas";
