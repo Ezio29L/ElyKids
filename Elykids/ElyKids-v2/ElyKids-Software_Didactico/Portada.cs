@@ -41,15 +41,25 @@ namespace ElyKids_Software_Didactico
             this.Controls.Add(pb1);
             this.numImagenes = 1;
 
+            lblLeccion.Text = "Actividad";
+
             switch(TipoActividad)
             {
+                case 0:
+                    lblTitulo.Text = "Trazo";
+                    break;
                 case 1:
+                    lblTitulo.Text = "Memorama";
                     break;
                 case 2:
+                    lblTitulo.Text = "Relación Palabra-Imagen";
                     break;
                 case 3:
+                    lblTitulo.Text = "Completa la palabra";
                     break;
             }
+            lblLeccion.Location = new Point(Convert.ToInt32((this.Width / 2) - (lblLeccion.Width / 2)), lblLeccion.Location.Y);
+            lblTitulo.Location = new Point(Convert.ToInt32((this.Width / 2) - (lblTitulo.Width / 2)), lblTitulo.Location.Y);
 
         }
         public Portada(string titulo, string num, string img1, string img2, string img3)

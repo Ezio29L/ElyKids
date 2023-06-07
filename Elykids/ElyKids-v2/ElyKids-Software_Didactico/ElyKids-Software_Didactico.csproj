@@ -257,5 +257,62 @@
   <ItemGroup>
     <None Include="Resources\Completa la palabra-PhotoRoom.png-PhotoRoom %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aves.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bata.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dino.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fuente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\libro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lima.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mano.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mapa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Moto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Papá.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Patos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\peso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rayo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sofá.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Té.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uva.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vela.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yoyo.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
