@@ -14,24 +14,7 @@ C:\Users\PC\Documents\tareas\universidad\Semestre 8\Ing de Software\ElyKids-v2\E
 C:\Users\PC\Documents\tareas\universidad\Semestre 8\Ing de Software\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids-Software_Didactico.csproj.CoreCompileInputs.cache
 C:\Users\PC\Documents\tareas\universidad\Semestre 8\Ing de Software\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids-Software_Didactico.exe
 C:\Users\PC\Documents\tareas\universidad\Semestre 8\Ing de Software\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids-Software_Didactico.pdb
-C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\bin\Debug\ElyKids-Software_Didactico.exe.config
-C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\bin\Debug\ElyKids-Software_Didactico.exe
-C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\bin\Debug\ElyKids-Software_Didactico.pdb
-C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\bin\Debug\Interop.WMPLib.dll
-C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\bin\Debug\AxInterop.WMPLib.dll
-C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids-Software_Didactico.csproj.AssemblyReference.cache
-C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids-Software_Didactico.csproj.SuggestedBindingRedirects.cache
-C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\Interop.WMPLib.dll
-C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\AxInterop.WMPLib.dll
-C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids-Software_Didactico.csproj.ResolveComReference.cache
-C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids_Software_Didactico.FInicio.resources
-C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids_Software_Didactico.MenuPrincipal.resources
 C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids_Software_Didactico.Properties.Resources.resources
-C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids-Software_Didactico.csproj.GenerateResource.cache
-C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids-Software_Didactico.csproj.CoreCompileInputs.cache
-C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids-Software_Didactico.exe
-C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids-Software_Didactico.pdb
-C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids_Software_Didactico.Lecturas.resources
 C:\Users\Hp\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\bin\Debug\ElyKids-Software_Didactico.exe.config
 C:\Users\Hp\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\bin\Debug\ElyKids-Software_Didactico.exe
 C:\Users\Hp\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\bin\Debug\ElyKids-Software_Didactico.pdb
@@ -50,8 +33,6 @@ C:\Users\Hp\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Did
 C:\Users\Hp\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids-Software_Didactico.csproj.CoreCompileInputs.cache
 C:\Users\Hp\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids-Software_Didactico.exe
 C:\Users\Hp\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids-Software_Didactico.pdb
-C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids_Software_Didactico.DesplegarTutorial.resources
-C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids_Software_Didactico.PortadaLeccion.resources
 C:\Users\Hp\Documents\Nueva carpeta\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\bin\Debug\ElyKids-Software_Didactico.exe.config
 C:\Users\Hp\Documents\Nueva carpeta\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\bin\Debug\ElyKids-Software_Didactico.exe
 C:\Users\Hp\Documents\Nueva carpeta\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\bin\Debug\ElyKids-Software_Didactico.pdb
@@ -73,3 +54,23 @@ C:\Users\Hp\Documents\Nueva carpeta\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_
 C:\Users\Hp\Documents\Nueva carpeta\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids-Software_Didactico.csproj.CoreCompileInputs.cache
 C:\Users\Hp\Documents\Nueva carpeta\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids-Software_Didactico.exe
 C:\Users\Hp\Documents\Nueva carpeta\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids-Software_Didactico.pdb
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\bin\Debug\ElyKids-Software_Didactico.exe.config
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\bin\Debug\ElyKids-Software_Didactico.exe
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\bin\Debug\ElyKids-Software_Didactico.pdb
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\bin\Debug\Interop.WMPLib.dll
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids-Software_Didactico.csproj.AssemblyReference.cache
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids-Software_Didactico.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\Interop.WMPLib.dll
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids-Software_Didactico.csproj.ResolveComReference.cache
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids_Software_Didactico.DesplegarTutorial.resources
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids_Software_Didactico.FInicio.resources
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids_Software_Didactico.Lecturas.resources
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids_Software_Didactico.MenuPrincipal.resources
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids_Software_Didactico.Portada.resources
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids_Software_Didactico.Trazado.resources
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids-Software_Didactico.csproj.GenerateResource.cache
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids-Software_Didactico.csproj.CoreCompileInputs.cache
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids-Software_Didactico.exe
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids-Software_Didactico.pdb

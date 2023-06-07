@@ -220,4 +220,7 @@
   <data name="D-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\D-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Completa_la_palabra_PhotoRoom_png_PhotoRoom__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Completa la palabra-PhotoRoom.png-PhotoRoom (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
