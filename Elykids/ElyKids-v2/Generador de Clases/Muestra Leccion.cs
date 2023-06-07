@@ -24,6 +24,18 @@ namespace Generador_de_Clases
         {
             lblNombre.Text = Target.Nombre;
             lblNum.Text = Target.Numero.ToString();
+            switch (Target.Actividad)
+            {
+                case 1:
+                    lblTipoAc.Text = "Memorama";
+                    break;
+                case 2:
+                    lblTipoAc.Text = "Relacion Palabra Imagen";
+                    break;
+                case 3:
+                    lblTipoAc.Text = "Completa la Palabra";
+                    break;
+            }
             
         }
         //

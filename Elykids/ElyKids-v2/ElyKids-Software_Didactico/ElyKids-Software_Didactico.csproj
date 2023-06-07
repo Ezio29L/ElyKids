@@ -47,6 +47,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AcCompletarPalabra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AcCompletarPalabra.designer.cs">
+      <DependentUpon>AcCompletarPalabra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AcRelacionPalabraImagen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AcRelacionPalabraImagen.designer.cs">
+      <DependentUpon>AcRelacionPalabraImagen.cs</DependentUpon>
+    </Compile>
     <Compile Include="AcMemorama.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +96,12 @@
     <Compile Include="MenuPrincipal.Designer.cs">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="PantallaCierre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaCierre.Designer.cs">
+      <DependentUpon>PantallaCierre.cs</DependentUpon>
+    </Compile>
     <Compile Include="Portada.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,12 +110,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Trazado.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Trazado.Designer.cs">
       <DependentUpon>Trazado.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AcCompletarPalabra.resx">
+      <DependentUpon>AcCompletarPalabra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AcRelacionPalabraImagen.resx">
+      <DependentUpon>AcRelacionPalabraImagen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AcMemorama.resx">
       <DependentUpon>AcMemorama.cs</DependentUpon>
     </EmbeddedResource>
@@ -113,12 +142,16 @@
     <EmbeddedResource Include="MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PantallaCierre.resx">
+      <DependentUpon>PantallaCierre.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Portada.resx">
       <DependentUpon>Portada.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Trazado.resx">
       <DependentUpon>Trazado.cs</DependentUpon>
@@ -324,61 +357,10 @@
     <None Include="Resources\Palma.ico" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Dino dame la mano.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Dino1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Dinosaurio.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\El pan y la sopa1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Es alta y luminosa.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\La luna.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Mamá.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Mami me cuida.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Me ama.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Me da sopa de fideo.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Memorama Atrás.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Mi abuela fabi.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Mira ana la luna.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Mira un ñu.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Pan.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Se baña.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Sopa.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Toño.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Vamos de paseo.png" />
+    <None Include="Resources\niños.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

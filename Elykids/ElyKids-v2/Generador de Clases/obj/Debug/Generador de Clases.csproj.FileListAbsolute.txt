@@ -16,3 +16,21 @@ C:\Users\Hp\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\Generador de Clases\
 C:\Users\Hp\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\Generador de Clases\obj\Debug\Generador de Clases.csproj.CopyComplete
 C:\Users\Hp\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\Generador de Clases\obj\Debug\Generador de Clases.exe
 C:\Users\Hp\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\Generador de Clases\obj\Debug\Generador de Clases.pdb
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\Generador de Clases\bin\Debug\Generador de Clases.exe.config
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\Generador de Clases\bin\Debug\Generador de Clases.exe
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\Generador de Clases\bin\Debug\Generador de Clases.pdb
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\Generador de Clases\bin\Debug\ElyKids-Software_Didactico.exe
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\Generador de Clases\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\Generador de Clases\bin\Debug\Interop.WMPLib.dll
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\Generador de Clases\bin\Debug\ElyKids-Software_Didactico.pdb
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\Generador de Clases\bin\Debug\ElyKids-Software_Didactico.exe.config
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\Generador de Clases\obj\Debug\Generador de Clases.csproj.AssemblyReference.cache
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\Generador de Clases\obj\Debug\Generador de Clases.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\Generador de Clases\obj\Debug\Generador_de_Clases.Form1.resources
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\Generador de Clases\obj\Debug\Generador_de_Clases.Muestra_Leccion.resources
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\Generador de Clases\obj\Debug\Generador_de_Clases.Properties.Resources.resources
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\Generador de Clases\obj\Debug\Generador de Clases.csproj.GenerateResource.cache
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\Generador de Clases\obj\Debug\Generador de Clases.csproj.CoreCompileInputs.cache
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\Generador de Clases\obj\Debug\Generador de Clases.csproj.CopyComplete
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\Generador de Clases\obj\Debug\Generador de Clases.exe
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\Generador de Clases\obj\Debug\Generador de Clases.pdb

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GrupoLecciones xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <NombreGrupo>Parte1</NombreGrupo>
+  <NombreGrupo>Parte1(Extendido)</NombreGrupo>
   <lecciones>
     <Lecciones>
       <Nombre>Amo a mi mamá</Nombre>
@@ -13,6 +13,18 @@
         <string>Mamá me cuida.</string>
         <string>Me cuida mi mamá.</string>
       </Lectura>
+      <Vocabulario>
+        <string>mi</string>
+        <string>mama</string>
+        <string>me</string>
+        <string>ama</string>
+        <string>yo</string>
+        <string>amo</string>
+        <string>a</string>
+        <string>cuida</string>
+        <string>mami</string>
+      </Vocabulario>
+      <Actividad>1</Actividad>
     </Lecciones>
     <Lecciones>
       <Nombre>Mi papá</Nombre>
@@ -26,6 +38,16 @@
         <string>Papi mira mi mapa.</string>
         <string>Cuida mi mapa papá</string>
       </Lectura>
+      <Vocabulario>
+        <string>es</string>
+        <string>mira</string>
+        <string>papá</string>
+        <string>papi</string>
+        <string>Pipe</string>
+        <string>mapa</string>
+        <string>libro</string>
+      </Vocabulario>
+      <Actividad>2</Actividad>
     </Lecciones>
     <Lecciones>
       <Nombre>Mi peso</Nombre>
@@ -40,6 +62,18 @@
         <string>Mira mi mano ese es mi peso.</string>
         <string>Cuida mi peso Susi.</string>
       </Lectura>
+      <Vocabulario>
+        <string>Sami</string>
+        <string>Susi</string>
+        <string>se</string>
+        <string>asoma</string>
+        <string>ese</string>
+        <string>peso</string>
+        <string>si</string>
+        <string>mano</string>
+        <string>uso</string>
+      </Vocabulario>
+      <Actividad>3</Actividad>
     </Lecciones>
     <Lecciones>
       <Nombre>El pan y la sopa</Nombre>
@@ -47,12 +81,24 @@
       <Lectura>
         <string>Mía pasa la sopa a Pepe.</string>
         <string>Pepe pasa la sopa a Mía.</string>
-        <string>Toma Pepe la sopa, toma Mía el pan.</string>
+        <string>Toma Pepe la sopa, toma Mía el pan</string>
         <string>Pepe mira la sopa.</string>
         <string>Mía mira el pan.</string>
         <string>Sí, me gusta la sopa.</string>
         <string>Ese pan me gusta.</string>
       </Lectura>
+      <Vocabulario>
+        <string>Mía</string>
+        <string>el</string>
+        <string>pan</string>
+        <string>la</string>
+        <string>pasa</string>
+        <string>Pepe</string>
+        <string>sopa</string>
+        <string>toma</string>
+        <string>gusta</string>
+      </Vocabulario>
+      <Actividad>1</Actividad>
     </Lecciones>
     <Lecciones>
       <Nombre>Tomás mi tío</Nombre>
@@ -69,6 +115,20 @@
         <string>Amo a mi tía Tete.</string>
         <string>Mi tía Tete toma té.</string>
       </Lectura>
+      <Vocabulario>
+        <string>Tomás</string>
+        <string>tío</string>
+        <string>moto</string>
+        <string>tiene</string>
+        <string>su</string>
+        <string>tu</string>
+        <string>Teté</string>
+        <string>toma</string>
+        <string>té</string>
+        <string>y</string>
+        <string>lima</string>
+      </Vocabulario>
+      <Actividad>2</Actividad>
     </Lecciones>
     <Lecciones>
       <Nombre>Elena y Lupe</Nombre>
@@ -76,13 +136,26 @@
       <Lectura>
         <string>Elena toma el libro.</string>
         <string>Elena sola lee el libro.</string>
-        <string>Lupe pasea su pato, mira Elena mi pato.</string>
+        <string>Lupe pasea su pato, mira </string>
+        <string>Elena mi pato.</string>
         <string>El come lima y sube a la loma.</string>
         <string>Mira Lupe lee mi libro.</string>
         <string>Lupe toma el libro y lee.</string>
         <string>Ese es mi libro Lupe.</string>
         <string>Ese es mi pato Elena.</string>
       </Lectura>
+      <Vocabulario>
+        <string>Elena</string>
+        <string>libro</string>
+        <string>lee</string>
+        <string>sola</string>
+        <string>pato</string>
+        <string>lima</string>
+        <string>Lupe</string>
+        <string>pasea</string>
+        <string>loma</string>
+      </Vocabulario>
+      <Actividad>3</Actividad>
     </Lecciones>
     <Lecciones>
       <Nombre>Mi dinosaurio</Nombre>
@@ -90,24 +163,50 @@
       <Lectura>
         <string>Dino es un dinosaurio.</string>
         <string>Dino duerme todo el día y pasea.</string>
-        <string>Dime Dino ¿dónde estas?</string>
+        <string>Dime Dino ¿dónde estás?</string>
         <string>Dino se asoma y mira.</string>
         <string>Mi dinosaurio pisa el lodo y me mira.</string>
         <string>Dino dame la mano.</string>
         <string>Dino me da el dedo.</string>
       </Lectura>
+      <Vocabulario>
+        <string>Dino</string>
+        <string>dame</string>
+        <string>pisa</string>
+        <string>dedo</string>
+        <string>dinosaurio</string>
+        <string>duerme</string>
+        <string>día</string>
+        <string>donde</string>
+        <string>lodo</string>
+        <string>da</string>
+      </Vocabulario>
+      <Actividad>1</Actividad>
     </Lecciones>
     <Lecciones>
-      <Nombre>El limón</Nombre>
+      <Nombre>La lima</Nombre>
       <Numero>8</Numero>
       <Lectura>
         <string>Lulú pide el limón a Elisa.</string>
         <string>El limón es de Elisa, dame el limón Elisa.</string>
-        <string>El limón es mío, el limón no es malo. </string>
-        <string>Elisa usa sal.</string>
+        <string>El limón es mío, el limón no es malo. Elisa usa sal.</string>
         <string>Elisa pasea sola y Lulú toma el limón y la sal.</string>
         <string>Mmm, me gusta el limón.</string>
       </Lectura>
+      <Vocabulario>
+        <string>limón</string>
+        <string>no</string>
+        <string>lame</string>
+        <string>mía</string>
+        <string>mala</string>
+        <string>pide</string>
+        <string>Lulú</string>
+        <string>de</string>
+        <string>Elisa</string>
+        <string>Dino</string>
+        <string>aves</string>
+      </Vocabulario>
+      <Actividad>2</Actividad>
     </Lecciones>
   </lecciones>
 </GrupoLecciones>

@@ -74,3 +74,7 @@ C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Did
 C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids-Software_Didactico.csproj.CoreCompileInputs.cache
 C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids-Software_Didactico.exe
 C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids-Software_Didactico.pdb
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids_Software_Didactico.AcMemorama.resources
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids_Software_Didactico.AcRelacionPalabraImagen.resources
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids_Software_Didactico.AcCompletarPalabra.resources
+C:\Users\PC\Source\Repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\obj\Debug\ElyKids_Software_Didactico.PantallaCierre.resources

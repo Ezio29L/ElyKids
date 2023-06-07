@@ -17,6 +17,7 @@ namespace Generador_de_Clases
     public partial class Form1 : Form
     {
         List<string> lectura = new List<string>();
+        List<string> vocabulario= new List<string>();
         List<Lecciones> lecciones = new List<Lecciones>();
         
         public Form1()
@@ -48,15 +49,19 @@ namespace Generador_de_Clases
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (textBox2.Text != string.Empty && textBox3.Text != string.Empty && textBox4.Text != string.Empty)
+            if (textBox2.Text != string.Empty && textBox3.Text != string.Empty && textBox6.Text != string.Empty) 
             {
-                lecciones.Add(new Lecciones(textBox2.Text, Convert.ToInt32(textBox3.Text), new List<string>(lectura)));
+                lecciones.Add(new Lecciones(textBox2.Text, Convert.ToInt32(textBox3.Text), new List<string>(lectura), new List<string>(vocabulario), Convert.ToInt32(textBox6.Text)));
                 listBox2.Items.Add(textBox2.Text);
                 lectura.Clear();
+                vocabulario.Clear();
                 listBox1.Items.Clear();
                 textBox2.Text = string.Empty;
                 textBox3.Text = string.Empty;
                 textBox4.Text = string.Empty;
+                textBox5.Text = string.Empty;
+                textBox6.Text = string.Empty;
+                listBox3.Items.Clear();
             }
             else
             {
@@ -155,6 +160,38 @@ namespace Generador_de_Clases
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            if(textBox5.Text!=string.Empty)
+            {
+                listBox3.Items.Add(textBox5.Text);
+                vocabulario.Add(textBox5.Text);
+                textBox5.Text = string.Empty;
+            }
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            int i = listBox3.SelectedIndex;
+            if (i > -1)
+            {
+                listBox1.Items.RemoveAt(i);
+                lblMensaje.Text = "Se removio: " + vocabulario[i];
+                vocabulario.RemoveAt(i);
+
+            }
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            pictureBox1.BackgroundImage = Image.FromFile(@"C:\Users\PC\source\repos\Ezio29L\ElyKids\Elykids\ElyKids-v2\ElyKids-Software_Didactico\Resources\papá.png");
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }

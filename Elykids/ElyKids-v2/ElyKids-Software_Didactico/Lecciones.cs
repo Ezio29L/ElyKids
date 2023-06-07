@@ -15,7 +15,7 @@ namespace ElyKids_Software_Didactico
     {
         public string NombreGrupo;
         public List<Lecciones> lecciones = new List<Lecciones>();
-
+        
         public GrupoLecciones(List<Lecciones> lecciones, string nombreGrupo)
         {
             this.lecciones = lecciones;
@@ -39,12 +39,16 @@ namespace ElyKids_Software_Didactico
         public string Nombre;
         public int Numero;
         public List<string> Lectura = new List<string>();
-
-        public Lecciones(string nombre, int numero, List<string> lectura)
+        public List<string> Vocabulario = new List<string>();
+        public int Actividad;
+        
+        public Lecciones(string nombre, int numero, List<string> lectura, List<string> vocab, int tipoActividad)
         {
             Nombre = nombre;
             Numero = numero;
             this.Lectura = lectura;
+            this.Vocabulario = vocab;
+            Actividad = tipoActividad;
             
         }
         public Lecciones()

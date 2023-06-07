@@ -67,6 +67,8 @@
             // button1
             // 
             this.button1.BackgroundImage = global::ElyKids_Software_Didactico.Properties.Resources.Memorama_Atrás;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Location = new System.Drawing.Point(169, 37);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(222, 289);
@@ -136,6 +138,8 @@
             // button2
             // 
             this.button2.BackgroundImage = global::ElyKids_Software_Didactico.Properties.Resources.Memorama_Atrás;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Location = new System.Drawing.Point(397, 37);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(222, 289);
@@ -146,6 +150,8 @@
             // button3
             // 
             this.button3.BackgroundImage = global::ElyKids_Software_Didactico.Properties.Resources.Memorama_Atrás;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.Location = new System.Drawing.Point(625, 37);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(222, 289);
@@ -156,6 +162,8 @@
             // button4
             // 
             this.button4.BackgroundImage = global::ElyKids_Software_Didactico.Properties.Resources.Memorama_Atrás;
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.Location = new System.Drawing.Point(169, 332);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(222, 289);
@@ -166,6 +174,8 @@
             // button5
             // 
             this.button5.BackgroundImage = global::ElyKids_Software_Didactico.Properties.Resources.Memorama_Atrás;
+            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button5.Location = new System.Drawing.Point(397, 332);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(222, 289);
@@ -176,6 +186,9 @@
             // button6
             // 
             this.button6.BackgroundImage = global::ElyKids_Software_Didactico.Properties.Resources.Memorama_Atrás;
+            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button6.ForeColor = System.Drawing.SystemColors.ControlText;
             this.button6.Location = new System.Drawing.Point(625, 332);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(222, 289);

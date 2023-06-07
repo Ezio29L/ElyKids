@@ -62,7 +62,9 @@ namespace ElyKids_Software_Didactico
             Lecturas lectura = leccion.mostrarlecturas();
             int Estado = 0;
             string[] ImagenesPortadaLeccion = leccion.ObtenerImagenesPortadaLeccion();
+            Portada PortadaDeActividad = new Portada(leccion.Actividad);
             Portada portadaLeccion;
+
             if (ImagenesPortadaLeccion.Length == 1)
             {
                 portadaLeccion = new Portada(leccion.Nombre, leccion.Numero.ToString(), ImagenesPortadaLeccion[0]);
@@ -70,6 +72,10 @@ namespace ElyKids_Software_Didactico
             {
                 portadaLeccion = new Portada(leccion.Nombre, leccion.Numero.ToString(), ImagenesPortadaLeccion[0], ImagenesPortadaLeccion[1], ImagenesPortadaLeccion[2]);
             }
+
+            AcMemorama memorama = new AcMemorama(leccion.Numero);
+            AcRelacionPalabraImagen relacionPalabraImagen = new AcRelacionPalabraImagen(leccion.Vocabulario);
+            AcCompletarPalabra completarPalabra = new AcCompletarPalabra(leccion.Vocabulario);
 
             this.Parent.Parent.Parent.Visible= false;
             do
@@ -93,16 +99,62 @@ namespace ElyKids_Software_Didactico
                         break;
 
                     case 2:
-                        //Este muestra la actividad
-                        Estado=5; 
+                        //Este muestra Portada de la actividad
+                        PortadaDeActividad.ShowDialog();
+                        if (PortadaDeActividad.DialogResult == DialogResult.OK) { Estado++; }
+                        else if (PortadaDeActividad.DialogResult == DialogResult.Abort) { Estado--; }
+                        else if (PortadaDeActividad.DialogResult == DialogResult.Cancel) { Estado = -2; }
                         break;
 
                     case 3:
-                        //este caso muestra la actividad de Trazado de Letra
+                        //este caso muestra la actividad
+                        switch (leccion.Actividad)
+                        {
+                            case 1:
+                                
+                                memorama.ShowDialog();
+                                if (memorama.DialogResult == DialogResult.OK) { Estado++; }
+                                else if (memorama.DialogResult == DialogResult.Abort) { Estado--; }
+                                else if (memorama.DialogResult == DialogResult.Cancel) { Estado = -2; }
+                                break;
+                            case 2:
+                                
+                                relacionPalabraImagen.ShowDialog();
+                                if (relacionPalabraImagen.DialogResult == DialogResult.OK) { Estado++; }
+                                else if (relacionPalabraImagen.DialogResult == DialogResult.Abort) { Estado--; }
+                                else if (relacionPalabraImagen.DialogResult == DialogResult.Cancel) { Estado = -2; }
+                                break;
+                            case 3:
+                                
+                                completarPalabra.ShowDialog();
+                                if (completarPalabra.DialogResult == DialogResult.OK) { Estado++; }
+                                else if (completarPalabra.DialogResult == DialogResult.Abort) { Estado--; }
+                                else if (completarPalabra.DialogResult == DialogResult.Cancel) { Estado = -2; }
+                                break;
+                        }
                         break;
 
                     case 4:
-                        //Este caso contempla una pantalla de Felicitaciones.
+                        PantallaCierre cierre;
+                        switch (leccion.Actividad)
+                        {
+                            case 1:
+                                cierre = new PantallaCierre(memorama.Calificar);
+                                break;
+                            case 2:
+                                cierre = new PantallaCierre(relacionPalabraImagen.Calificar);
+                                break;
+                            case 3:
+                                cierre = new PantallaCierre(completarPalabra.Calificar);
+                                break;
+                            default:
+                                cierre = new PantallaCierre(0);
+                                break;
+                        }
+                        cierre.ShowDialog();
+                        if (cierre.DialogResult == DialogResult.OK) { Estado++; }
+                        else if (cierre.DialogResult == DialogResult.Abort) { Estado--; }
+                        else if (cierre.DialogResult == DialogResult.Cancel) { Estado = -2; }
                         break;
                 }
             } while (Estado > -1 && Estado != 5);
